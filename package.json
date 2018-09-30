@@ -1,0 +1,28 @@
+{
+  "name": "scrappy",
+  "version": "1.0.0",
+  "description": "using mongoDB and cheerio to scrape data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burritoscott/scrappy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burritoscott/scrappy/issues"
+  },
+  "homepage": "https://github.com/burritoscott/scrappy#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongojs": "^2.6.0",
+    "request": "^2.88.0"
+  }
+}
